@@ -6,6 +6,8 @@
 Este proyecto ha sido creado a partir de uno de los retos del Hackaton "Hack the Ocean". Siendo nuestro objetivo el dar a conocer la informacion de ciertas especies marinas que son fundamentales para la pesca y el consumo humano.
 Consideramos que el dar a conocer este tipo de informacion es fundamental para evitar la sobre pesca y el desbalance de la vida marina.
 
+Este sitio fue desplegado en Azure [Hacktlantis](https://hacktlantis.azurewebsites.net).
+
 
 ![image](https://user-images.githubusercontent.com/78194097/168489501-be8bd115-01f7-431d-b421-309daeb9d7e1.png)
 
@@ -19,6 +21,11 @@ Consideramos que el dar a conocer este tipo de informacion es fundamental para e
 ![image](https://user-images.githubusercontent.com/78194097/168489925-df112257-71c0-4e6a-bca2-ff9de71b5ab8.png)
 
 **Por ultimo damos a conocer una lista de ``informacion nutrimental`` en la cual se busca fomentar un consumo moderado del pescado de acuerdo a la necesidad de cada persona**
+
+### API FISHWATCH
+Para obtener la informacion del proyecto se utilizo la API de FishWatch, que es un proyecto desarrollado por el gobierno de los Estados Unidos para el conocimiento y adminitracion de la vida marina de manera sustentable.
+
+
 
 ### Proyecto creado con la colaboracion de las siguientes personas:
 
