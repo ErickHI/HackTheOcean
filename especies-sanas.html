@@ -23,13 +23,13 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active text-white" aria-current="page" href="">Inicio</a>
+                    <a class="nav-link active text-white" aria-current="page" href="index.html">Inicio</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link active text-white" aria-current="page" href="busqueda-esp.html">Buscar especie</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active text-white" aria-current="page" href="especies-sanas.html">Información Nutricional</a>
+                    <a class="nav-link active text-white" aria-current="page" href="">Información Nutricional</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link text-white-50" href="nosotros.html">Nosotros</a>
@@ -40,48 +40,35 @@
           </nav>
     </head>
 
-    <main class="container mt-1">
-        <div class="input-group p-2">
-            <h1>Problemática</h1>
-        </div>
+    <main class="container h-75 mt-1">
         <!-- TABLA DE INFORMACIÓN -->
         <div class="h-100" id="contenedorPrincipal">
-          <p class="mb-0 fs-5">
-          A través de los últimos años, la situación climática mundial ha venido en 
-          declive, siendo los océanos de los mas afectados y dañados por los 
-          excesos del ser humano.
-          </p>
-          <p class="mb-0 fs-5">
-          La vida marina se encuentra en peligro, ya que, según investigaciones se 
-          están encontrando en la población del mar los mismos patrones que 
-          llevaron al colapso a la vida terrestre. La explotación y el daño al 
-          ecosistema va a llevar a la desaparición de distintas especies, que se 
-          estima que dentro de 100 años muchas de las especies que hoy 
-          conocemos ya no existan. 
-          </p>
-          <p class="mb-3 fs-5">
-          Otra cuestión para considerar es el saqueo de la biodiversidad. Estas 
-          acciones son las que mas afectan a las especies, esto a consecuencia del 
-          desconocimiento de las personas hacia las especies, el simple hecho de 
-          que no tengan en cuenta que especies están en peligro de extinción o 
-          son de suma importancia para el ecosistema en que habitan hace que 
-          exista un desbalance natural y se acelera su proceso de extinción. 
-          Si bien hemos hablado del saqueo al mar, ahora hablemos de la sobre 
-          pesca, un tema que es generado a partir del problema de cubrir las 
-          necesidades alimenticias y materiales de los humanos. 
-          </p>
-          <p class="fst-italic fw-bold mb-0 fs-5">
-            El propósito de este proyecto es brindar a las personas una herramienta para consultar los datos de las principales especies marinas de consumo humano como, por ejemplo, macronutrientes, micronutrientes, hábitat, disponibilidad del recurso, impacto ambiental, etc. Para así, poder tener una referencia valorar si es factible o no consumir determinada especie.
-          </p>
+            <table class="table table-striped table-primary">
+                <thead>
+                    <tr>
+                        <th>Especie</th>
+                        <th>Calories</th>
+                        <th>Carbohydrate</th>
+                        <th>Cholesterol</th>
+                        <th>Fat, Total</th>
+                        <th>Fiber, Total Dietary</th>
+                        <th>Selenium</th>
+                        <th>Sodium</th>
+                        <th>Sugars, Total</th>
+                    </tr>
+                </thead>
+                <tbody id="tableData">
+                </tbody>
+            </table>
         </div>
     </main>
 
-    <footer >
+    <!-- <footer >
         Todos los derechos reservados | HACKTLANTIS | Hack the Ocean
-    </footer>
+    </footer> -->
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
-    <script src="js/main.js"></script>
+    <script src="js/graficas.js"></script>
 </body>
 </html>
